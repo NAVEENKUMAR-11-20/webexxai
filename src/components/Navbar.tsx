@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full animate-glow-pulse" />
           </div>
           <span className="font-heading font-bold text-lg text-foreground">
-            ELI<span className="text-primary">10</span>
+            WEBexx<span className="text-primary">AI</span>
           </span>
         </Link>
 
