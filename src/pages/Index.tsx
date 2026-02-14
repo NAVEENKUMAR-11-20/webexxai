@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Brain, Upload, Layers, FileText, Sparkles, Moon, Eye, ArrowRight, Linkedin, Github, Youtube } from "lucide-react";
+import { Brain, Upload, Layers, FileText, Sparkles, Moon, Eye, ArrowRight, Linkedin, Github, Youtube, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import ParticleBackground from "@/components/ParticleBackground";
@@ -184,23 +184,18 @@ const Index = () => {
             <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
               <span className="text-3xl font-heading font-bold text-primary">NP</span>
             </div>
-            <h3 className="text-2xl font-heading font-bold mb-1">Naveenkumar P</h3>
-            <p className="text-primary font-medium mb-4">AI Researcher | ML Engineer | Technical Educator</p>
-            <p className="text-sm text-muted-foreground mb-2">
-              Channel: <span className="text-foreground font-medium">Knowledge Peak</span>
-            </p>
-            <p className="text-sm text-muted-foreground mb-6">
-              Ethical AI · Deep Learning · Cryptography · Neuro-Symbolic Systems
-            </p>
+            <h3 className="text-2xl font-heading font-bold mb-1">Naveen Kumar</h3>
+            <p className="text-primary font-medium mb-4">Web Developer | ML Engineer | Technical Educator</p>
+    
             <div className="flex justify-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/naveen-kumar-p-034658300/" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" aria-label="LinkedIn">
                 <Linkedin className="w-5 h-5 text-primary" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" aria-label="GitHub">
+              <a href="https://github.com/NAVEENKUMAR-11-20" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" aria-label="GitHub">
                 <Github className="w-5 h-5 text-primary" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" aria-label="YouTube">
-                <Youtube className="w-5 h-5 text-primary" />
+              <a href="https://x.com/NaveenKuma1120" className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" aria-label="YouTube">
+                <Twitter className="w-5 h-5 text-primary" />
               </a>
             </div>
           </motion.div>
@@ -210,7 +205,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="relative z-10 py-8 px-4 border-t border-border/50">
         <div className="container mx-auto text-center text-sm text-muted-foreground">
-          <p>© 2026 Explain It Like I'm 10 — Built with ❤️ by Naveenkumar P</p>
+          <p>© 2026 Explain It Like I'm 10 — Built with ❤️ by NAVEEN KUMAR</p>
         </div>
       </footer>
     </div>
